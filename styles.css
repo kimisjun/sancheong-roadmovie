@@ -19,10 +19,11 @@
 @media(max-width:760px){.poker2-page .navlinks{grid-template-columns:repeat(7,minmax(0,1fr))}.poker2-page .navlinks a,.poker2-page .share-btn{font-size:.52rem}.navlinks{grid-template-columns:repeat(6,minmax(0,1fr))}.poker-hero{padding:48px 0 34px}.poker-hero h1{font-size:clamp(4rem,22vw,6rem)}.poker-setup{padding:30px 0}.poker-setup-card{grid-template-columns:1fr;padding:20px 16px;box-shadow:5px 5px 0 var(--ink)}.poker-setup-card fieldset{grid-column:1}.setup-players{grid-template-columns:1fr 1fr}.poker-toolbar{align-items:flex-start}.poker-toolbar h2{font-size:3.2rem}.poker-toolbar-actions{flex-direction:column}.poker-table{min-height:325px;padding:45px 18px;border-width:7px;border-radius:90px;gap:12px}.poker-seat{min-height:100px;padding:10px}.poker-seat strong{font-size:1.35rem}.bet-panel,.winner-panel{padding:16px 12px}.bet-summary{align-items:flex-start;flex-direction:column;gap:3px}.bet-actions{grid-template-columns:1fr 1fr}.winner-grid{grid-template-columns:1fr 1fr}.round-actions{flex-direction:column}.round-actions .button{width:100%}.cash-form{align-items:stretch;flex-direction:column}.cash-results{grid-template-columns:1fr 1fr}.cash-results article:nth-child(2){border-right:0}.cash-results article:nth-child(-n+2){border-bottom:1px solid var(--ink)}.section-head.compact{margin-top:42px}.poker-log li{flex-direction:column;gap:2px}.bank-grid{grid-template-columns:1fr}.tip-row{grid-template-columns:1fr}.navlinks a,.navlinks a[aria-current=page],.share-btn{font-size:.58rem}}
 
 /* River to Screen — adapted from the Gyeongju road-movie visual system */
-:root{--paper:#f7f8f6;--paper2:#e8eeec;--red:#b83b36;--red2:#e2604e;--yellow:#d7ebe8;--muted:#65706d;--line:rgba(23,32,30,.18);--shadow:0 18px 50px rgba(17,36,32,.12)}
-body:before{opacity:.1}
-.trip-hero:after{background:linear-gradient(90deg,rgba(8,19,20,.78) 0%,rgba(10,29,31,.32) 56%,rgba(8,23,25,.04)),linear-gradient(0deg,rgba(8,18,20,.68),transparent 52%)}
-.trip-hero-bg{background-image:url('assets/rafting-hero.jpg');background-position:center 52%;filter:brightness(1.08) saturate(.9) contrast(1.02)}
+:root{--ink:#10252b;--paper:#f4fbfc;--paper2:#e2f2f5;--red:#e9574f;--red2:#ff7568;--yellow:#c7edf3;--muted:#58727a;--line:rgba(16,58,68,.17);--shadow:0 18px 50px rgba(19,79,91,.12)}
+body:before{opacity:.045}
+header.site{background:rgba(244,251,252,.96)}
+.trip-hero:after{background:linear-gradient(90deg,rgba(5,31,39,.7) 0%,rgba(9,61,70,.22) 58%,rgba(10,75,84,.02)),linear-gradient(0deg,rgba(5,30,38,.55),transparent 50%)}
+.trip-hero-bg{background-image:url('assets/rafting-hero.jpg');background-position:center 52%;filter:brightness(1.14) saturate(1.03) contrast(1.01)}
 .trip-nav{gap:22px}.plan-choice-section{background:var(--paper2);border-block:1px solid var(--ink)}
 .ending-switch{display:grid;grid-template-columns:1fr 1fr;border:1px solid var(--ink);margin-bottom:28px}
 .ending-switch button{display:flex;flex-direction:column;align-items:flex-start;gap:8px;padding:22px;border:0;border-right:1px solid var(--ink);background:var(--paper);text-align:left;cursor:pointer}
@@ -31,7 +32,7 @@ body:before{opacity:.1}
 .ending-panels{display:grid;grid-template-columns:1fr 1fr;border-top:1px solid var(--ink);border-left:1px solid var(--ink)}
 .ending-panel{background:var(--paper);border-right:1px solid var(--ink);border-bottom:1px solid var(--ink);display:flex;flex-direction:column;transition:transform .2s,box-shadow .2s}
 .ending-panel.selected{position:relative;z-index:2;transform:translateY(-5px);box-shadow:8px 8px 0 var(--red)}
-.ending-hero{min-height:290px;padding:30px;background:linear-gradient(135deg,#ed9a78,#b83b36);color:#fff;display:flex;flex-direction:column;justify-content:flex-end}
+.ending-hero{min-height:290px;padding:30px;background:linear-gradient(135deg,#62c6d5,#277887);color:#fff;display:flex;flex-direction:column;justify-content:flex-end}
 .ending-hero.night{background:linear-gradient(135deg,#173f4a,#171411 72%)}.ending-hero h3{font-size:clamp(3rem,6vw,5.7rem);margin:10px 0 12px}.ending-hero h3 .serif{font-size:.55em}.ending-hero p{max-width:430px;margin:0}
 .compact-timeline{list-style:none;margin:0;padding:0}.compact-timeline li{display:grid;grid-template-columns:76px 1fr;gap:16px;padding:17px 24px;border-bottom:1px solid var(--line)}
 .compact-timeline time{font:600 1.05rem var(--display);color:var(--red)}.compact-timeline b,.compact-timeline span{display:block}.compact-timeline span{font-size:.82rem;color:var(--muted)}
